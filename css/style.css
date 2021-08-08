@@ -117,9 +117,13 @@ a:hover {
 }
 .servicios,
 .navegacion-principal,
+.main-principal,
 .form {
   scroll-snap-align: start;
   scroll-snap-stop: always;
+}
+.main-principal h2{
+  margin-top: 15rem;
 }
 .servicios {
   display: flex;
@@ -148,6 +152,9 @@ a:hover {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+.form{
+  margin-top: 10rem;
 }
 
 .formulario {
@@ -186,6 +193,7 @@ a:hover {
   border-radius: 1.5rem;
 }
 footer {
+  margin-top: 5rem;
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
